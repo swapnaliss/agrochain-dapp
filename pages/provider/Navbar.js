@@ -12,7 +12,7 @@ const Navbar = () => {
       <button onClick={() => router.push("/Login")} className="bg-white text-indigo-500 p-2 rounded-lg hover:bg-indigo-500 hover:text-white">
         Login
       </button>
-      <button  className="bg-white text-indigo-500 p-2 rounded-lg hover:bg-indigo-500 hover:text-white">
+      <button  onClick={() => router.push("/SignUp")}className="bg-white text-indigo-500 p-2 rounded-lg hover:bg-indigo-500 hover:text-white">
         Sign Up
       </button>
     </nav>
